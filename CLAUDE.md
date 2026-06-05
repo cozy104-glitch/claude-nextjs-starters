@@ -23,10 +23,15 @@
 - 금액은 정수 '원' 단위, 부가세 = `round(supplyAmount * 0.1)` (`invoiceCalculator.ts`)
 - 합계는 서버에서만 계산(Notion 미저장), 웹·PDF 동일 결과 사용
 
-## 📚 개발 가이드
+## 📥 핵심 문서 Import (자동 로드)
 
-- **🗺️ 개발 로드맵**: `@/docs/ROADMAP.md`
-- **📋 프로젝트 요구사항**: `@/docs/PRD.md`
+**아래 문서는 세션 시작 시 자동으로 컨텍스트에 포함됩니다.**
+
+- 📋 프로젝트 요구사항(PRD): @docs/PRD.md
+- 🗺️ 개발 로드맵: @docs/ROADMAP.md
+
+## 📚 개발 가이드 (필요 시 참조)
+
 - **📁 프로젝트 구조**: `@/docs/guides/project-structure.md`
 - **🎨 스타일링 가이드**: `@/docs/guides/styling-guide.md`
 - **🧩 컴포넌트 패턴**: `@/docs/guides/component-patterns.md`
