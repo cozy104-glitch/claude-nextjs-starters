@@ -1,0 +1,3 @@
+- [Project Purpose](project_purpose.md) — invoice-web is a Notion-backed quote (견적서) web viewer + PDF MVP
+- [Kept Starter Components](decision_kept_components.md) — which starter pieces were retained and why
+- [Starter Quirks](reference_starter_quirks.md) — config interdependencies and build gotchas found in this starter
