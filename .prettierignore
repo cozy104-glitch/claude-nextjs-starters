@@ -39,3 +39,12 @@ Thumbs.db
 
 # Generated files
 next-env.d.ts
+
+# 독립 하위 프로젝트 (자체 빌드 경계)
+notion-cms-project/
+
+# Claude Code 에이전트/훅 자산 (앱 소스 아님)
+.claude/
+
+# 문서 (앱 소스 아님 — 포맷 정규화 대상에서 제외)
+docs/

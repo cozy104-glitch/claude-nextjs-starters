@@ -1,0 +1,16 @@
+# 모든 텍스트 파일은 저장소에서 LF로 정규화한다.
+# .prettierrc의 endOfLine: "lf"와 정합을 맞춰, Windows의 CRLF 자동변환(core.autocrlf)으로
+# 인해 prettier --check가 오탐(줄바꿈만 다른데 실패)하는 문제를 영구히 방지한다.
+* text=auto eol=lf
+
+# 바이너리 자산은 변환 대상에서 제외
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.pdf binary

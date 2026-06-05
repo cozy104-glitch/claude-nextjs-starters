@@ -15,9 +15,13 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'NextJS Starter - 모던 웹 스타터킷',
-  description:
-    'Next.js 15, TypeScript, TailwindCSS, ShadcnUI로 구축된 프로덕션 준비가 완료된 웹 애플리케이션 스타터킷',
+  title: '견적서',
+  description: '견적서 웹뷰어',
+  // 공개 링크 모델이므로 검색엔진에 노출되지 않도록 전역 noindex 처리 (PRD §11, F-09)
+  robots: {
+    index: false,
+    follow: false,
+  },
 }
 
 export default function RootLayout({
